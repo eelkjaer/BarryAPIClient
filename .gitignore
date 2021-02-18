@@ -1,8 +1,8 @@
 ### OWN ###
-credentials.py
-.credentials.py
-./credentials.py
-*/credentials.py
+#barry_energy_api/credentials.py
+#.credentials.py
+#barry_energy_api/credentials.py
+#*/credentials.py
 
 
 ### Linux ###

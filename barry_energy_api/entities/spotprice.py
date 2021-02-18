@@ -9,7 +9,7 @@ def getSpotprice(headers):
       "id": 0,
       "jsonrpc": "2.0",
       "params": [
-        "DK_NORDPOOL_SPOT_DK1",
+        headers[3],
         headers[1],
         headers[2]
       ]
