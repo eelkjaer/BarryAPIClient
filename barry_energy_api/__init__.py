@@ -1,15 +1,16 @@
 import enum
+from datetime import datetime, timedelta
 
 from barry_energy_api.entities import meteringpoints, spotprice, consumption
 from barry_energy_api.entities.consumption import getConsumption
 from barry_energy_api.entities.meteringpoints import getMeteringPoints
 from barry_energy_api.entities.spotprice import getSpotprice
 from barry_energy_api.utils import dateFormat, createHeader
-from datetime import datetime, timedelta
 
 
 class BarryException(Exception):
     pass
+
 
 class PriceZone(enum.Enum):
     """

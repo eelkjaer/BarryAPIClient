@@ -4,6 +4,9 @@
   <a href="LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+  <a href="https://travis-ci.com/eelkjaer/BarryAPIClient" target="_blank">
+    <img alt="Build status" src="https://travis-ci.com/eelkjaer/BarryAPIClient.svg?branch=main" />
+  </a>
 </p>
 
 > Simple python package to work with the API of Barry Energy. 
@@ -51,6 +54,10 @@ api.spotprices(2)
 * Website: https://evsn.dk
 * Github: [@eelkjaer](https://github.com/eelkjaer)
 * LinkedIn: [@emil-elkjær](https://linkedin.com/in/emil-elkjær)
+
+
+## Inspiration
+Package setup [@Frankkkkk](https://github.com/Frankkkkk)
 
 ## Show your support
 

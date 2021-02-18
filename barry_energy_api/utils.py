@@ -1,7 +1,7 @@
 def createHeader(apitoken, fromdate, todate, pricezone):
     apiHeader = {
-      "Content-Type": "application/json",
-      "Authorization": "Bearer " + apitoken
+        "Content-Type": "application/json",
+        "Authorization": "Bearer " + apitoken
     }
 
     return [apiHeader, fromdate, todate, pricezone]
