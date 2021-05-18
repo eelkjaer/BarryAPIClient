@@ -12,7 +12,8 @@ setup(
     version="1.0.0",
     author="Emil Elkjær Nielsen",
     author_email="emil@evsn.dk",
-    description=("Connecting to and getting data from Barry Energy's API (http://barry.energy)"),
+    description=(
+        "Connecting to and getting data from Barry Energy's API (http://barry.energy)"),
     license="LICENS",
     keywords="python barry energy api electricity prices barry.energy",
     url="https://github.com/eelkjaer/BarryAPIClient",
